@@ -1,0 +1,193 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Baloo 2', cursive;
+    background:#f5f7fa;
+    padding: 40px 20px 40px 20px;
+}
+.wrapper{
+    background:#ffffff;
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+}
+
+.sidebar{
+    background: #1e2939;
+    width: 370px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: white;
+}
+.my-photo{
+    width: 370px;
+    height: 425px;
+}
+
+.about-me-container{
+    padding: 110px 90px;
+}
+.contacts-tech-soft-container{
+    margin: 40px 40px 0 40px;
+}
+
+.cont-tech-soft-container-title{
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #ff6b08;
+    margin-bottom: 15px;
+}
+.cont-tech-soft-container-title:hover{
+    color: #ffffff;
+    cursor: pointer;
+}
+.contacts-link{
+    font-size: 18px;
+    font-weight: 500;
+    color: #8e949c;
+}
+.contacts-link-type{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.tech-skills-item{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 17px;
+    color: #ff6b08;
+}
+.tech-skills-teg{
+    color: #f5f7fa;
+    transition: .4s;
+}
+.tech-skills-teg:hover{
+    color: #ff6b08;
+    cursor: pointer;
+}
+
+/*profession;*/
+.about-me-container>div:nth-child(1)>h2{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 18px;
+    margin-left: 17px;
+
+}
+/*name;*/
+.about-me-container>div:nth-child(1)>h1{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 89px;
+    margin-left: 17px;
+
+}
+.about-myself{
+    margin-top: 30px;
+    margin-left: 17px;
+
+}
+.for-me-info{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/*---projects container;*/
+.about-me-container>div:nth-child(2)>li a{
+    color: #595959;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    cursor: pointer;
+}
+.tech-name{
+    color: #595959;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    cursor: pointer;
+}
+.project-item{
+    font-weight: 500;
+    margin-left: 17px;
+}
+.project-item a{
+    color: #595959;
+    text-decoration: none;
+}
+.project-item a:hover{
+    color: #000000;
+}
+.projects-container li{
+    font-size: 20px;
+}
+
+/*!*work experience;*!!*projects-title;*!education;*/
+.about-me-container>div>h3{
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 60px;
+    cursor: pointer;
+    margin-left: 17px;
+
+}
+.about-me-container>div>h3:hover{
+    color: #1e2939;
+}
+
+.company-info-color{
+    color: #ff6b08;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.company-info-color:hover{
+    color: #1e2939
+}
+
+/*---experience;*/
+.experience li, .education li{
+    font-size: 20px;
+    margin-left: 17px;
+    cursor: pointer;
+}
+
+
+
+/*------foter;*/
+.social{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.a-icon-social{
+    text-decoration: none;
+    color: #1e2939;
+    cursor: pointer;
+}
+.a-icon-social:hover{
+    color: #ff6b08;
+}
+.faceBook, .linkedin, .gitHub{
+    display: flex;
+    justify-content: center;
+    margin: 0 5px;
+    margin-bottom: 20px;
+}
+.footer{
+    box-sizing: border-box;
+    overflow:hidden;
+}
