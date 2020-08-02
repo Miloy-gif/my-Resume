@@ -7,6 +7,11 @@ body{
     font-family: 'Baloo 2', cursive;
     background:#f5f7fa;
     padding: 40px 20px 40px 20px;
+    display: grid;
+    grid-template-rows: 80px 1fr 70px;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    height: 100vh;
 }
 .wrapper{
     background:#ffffff;
